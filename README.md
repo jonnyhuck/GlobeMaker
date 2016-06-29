@@ -1,15 +1,15 @@
 #makeGlobe.py
 **makeGlobe.py** is a simple Python script that allows you to create a globe.
 
-You can read all about the process at my [blog](http://).
+You can read all about the process at my [blog](https://geographicalinformation.science/2016/06/29/globemaking-for-beginners/).
 
 ###Dependencies:
-* [Python 2.7](http://)
-* [OGR](http://)
-* [PyProj](http://)
-* [Mapnik](http://)
-* [PIL](http://)
-* [Natural Earth Landmass Data](http://)
+* [Python 2.7](https://www.python.org/)
+* [OGR](http://gdal.org/python/)
+* [PyProj](https://github.com/jswhit/pyproj)
+* [Mapnik](https://github.com/mapnik/python-mapnik)
+* [PIL](http://www.pythonware.com/products/pil/)
+* [Natural Earth Landmass Data](http://www.naturalearthdata.com/downloads/110m-physical-vectors/)
 
 ###Usage:
 
