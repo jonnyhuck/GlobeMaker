@@ -26,11 +26,11 @@ You can read all about the process at my [blog](https://geographicalinformation.
 
 e.g.:
 
-`python makeGlobe.py -p 100 -d 30 -g 1 -o example.png`
+`python makeGlobe.py -p 100 -d 40 -g 1 -o example.png`
 
 would give you:
 
-![image](http://)
+![image](http://jonnyhuck.co.uk/stack/example2.png)
 
 whereas:
 
@@ -38,4 +38,4 @@ whereas:
 
 would give you:
 
-![image](http://)
+![image](http://jonnyhuck.co.uk/stack/example.png)
