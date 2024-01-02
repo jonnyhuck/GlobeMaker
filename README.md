@@ -1,9 +1,12 @@
-#makeGlobe.py
+# makeGlobe.py
+
+**NB:** *This script is now very old and relies on the Mapnik Python bindings, which are very challenging to build.*
+
 **makeGlobe.py** is a simple Python script that allows you to create a globe.
 
-You can read all about the process at my [blog](https://geographicalinformation.science/2016/06/29/globemaking-for-beginners/).
+You can read all about the process at my [blog](https://jonnyhuckblog.wordpress.com/2016/06/29/globemaking-for-beginners/).
 
-###Dependencies:
+## Dependencies:
 * [Python 2.7](https://www.python.org/)
 * [OGR](http://gdal.org/python/)
 * [PyProj](https://github.com/jswhit/pyproj)
@@ -11,16 +14,16 @@ You can read all about the process at my [blog](https://geographicalinformation.
 * [PIL](http://www.pythonware.com/products/pil/)
 * [Natural Earth Landmass Data](http://www.naturalearthdata.com/downloads/110m-physical-vectors/)
 
-###Usage:
+## Usage:
 
-#####Parameters:
+### Parameters:
 * `-h` Print out the command usage
 * `-p` The width of each gore in pixels. Default: **500**.
 * `-d` The width of each gore in degrees (must multiply into 360). Default: **60**.
 * `-g` The width of the outline around each gore in pixels . Default: **4**.
 * `-o` The name of the output file . Default: **globe.png**.
 
-#####Command:
+### Command:
 
 `python makeGlobe.py -p [GORE_WIDTH_PX] -d [GORE_WIDTH_DEGREES] -g [GORE_OUTLINE_WIDTH] -o [OUT_PATH]`
 
@@ -30,7 +33,7 @@ e.g.:
 
 would give you:
 
-![image](http://jonnyhuck.co.uk/stack/example2.png)
+![globe 9 gores](./globe.png)
 
 whereas:
 
@@ -38,4 +41,4 @@ whereas:
 
 would give you:
 
-![image](http://jonnyhuck.co.uk/stack/example.png)
+![globe 3 gores](https://jonnyhuckblog.files.wordpress.com/2016/06/globe2.png)
